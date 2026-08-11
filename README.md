@@ -8,23 +8,27 @@ A static product launch activity page for the FLEXTAIL 2026 release collection.
 - Division and release-window filters
 - Clickable product detail modal
 - Launch timing roadmap matrix
-- Placeholder image support through `images/{product_key}.png`
+- 9 embedded, matched product images
 - GitHub Pages deployment workflow
 
-## Product image naming
+## Product Images
 
-The page will automatically show product images if matching files are added under `images/`.
+The page only shows real product images where matching assets have been checked locally.
+Products without a confirmed image use a clean text placeholder so the showcase does not display mismatched visuals.
 
-Examples:
+Matched image products:
 
 ```text
-images/max_blast_300.png
-images/evo_sup_pump_200.png
-images/max_espresso.png
-images/nano_pump_9.png
+Evo Sup Pump 200 / 200L
+EZY Pack Duo
+Max Blast 200H
+Max Scrubber 400
+Nano Bag Set 5/5P
+Tiny Pump 3X
+Tiny Tire Pump 600
+Zero Lantern
+Zero Power Bank 5000C
 ```
-
-If an image is missing, the page shows a clean branded placeholder instead.
 
 ## GitHub Pages
 
